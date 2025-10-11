@@ -628,7 +628,7 @@
     </header>
 
     <div class="carousel-container">
-        <strong style="text-align: center; max-width: 1200px; font-family: 'Quicksand', sans-serif; font-size: 19px; display: block; margin: 0 auto 20px; color: #344055;">
+        <strong style="text-align: center; max-width: 1250px; font-family: 'Quicksand', sans-serif; font-size: 19px; display: block; margin: 0 auto 20px; color: #344055;">
             Tap a video to start or stop.
         </strong>
         <div id="carousel">
@@ -646,7 +646,7 @@
         <hr>
 
         <section id="advantage">
-            <h2>The PRISMAUDIO Architecture</h2>
+            <h2>The PRISMAUDIO Framework</h2>
             <img src="fig/fig2_model.png" alt="PrismAudio illustration" width="100%" style="max-width:1200px; display:block; margin:40px auto;" />
         </section>
 
@@ -654,72 +654,12 @@
 
 
 
-        <section id="origin-demos">
-            <h2>Demos: Scenarios in VGGSound</h2>
-            <p style="text-align: center; margin-bottom: 40px; color: var(--light-text-color); font-style: italic;">Click any card below to load the full high-fidelity comparison and Decomposed Chain-of-Thought analysis for that scene.</p>
-
-             <div class="demo-preview-grid">
-                <div class="demo-preview-card" onclick="openModal('case-01')">
-                    <div class="preview-media" style="padding: 0; border: none; background: none;">
-                        <img src="https://raw.githubusercontent.com/prismaudio/test.github.io/main/cases/preview/_-W48cCMzXU_0001021.png" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;" />
-                    </div>
-                    <p>Baltimore Oriole Calling</p>
-                </div>
-                <div class="demo-preview-card" onclick="openModal('case-02')">
-                    <div class="preview-media" style="padding: 0; border: none; background: none;">
-                        <img src="cases/preview/3ClbaJYWVO4_000030.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;" />
-                    </div>
-                    <p>Playing Electric Guitar</p>
-                </div>
-                <div class="demo-preview-card" onclick="openModal('case-03')">
-                    <div class="preview-media" style="padding: 0; border: none; background: none;">
-                        <img src="cases/preview/3k8zGf8Btfo_000250.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;" />
-                    </div>
-                    <p>Playing Drum Kit</p>
-                </div>
-                <div class="demo-preview-card" onclick="openModal('case-04')">
-                    <div class="preview-media" style="padding: 0; border: none; background: none;">
-                        <img src="cases/preview/-miI_C3At4Y_000104.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;" />
-                    </div>
-                    <p>Playing Badminton</p>
-                </div>
-                <div class="demo-preview-card" onclick="openModal('case-05')">
-                    <div class="preview-media" style="padding: 0; border: none; background: none;">
-                        <img src="cases/preview/-fTfRh0_RQ4_000030.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;" />
-                    </div>
-                    <p>Car Passing by</p>
-                </div>
-                <div class="demo-preview-card" onclick="openModal('case-06')">
-                    <div class="preview-media" style="padding: 0; border: none; background: none;">
-                        <img src="cases/preview/2Tx5L5RBXxw_000200.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;" />
-                    </div>
-                    <p>Stream Burbling</p>
-                </div>
-                <div class="demo-preview-card" onclick="openModal('case-07')">
-                    <div class="preview-media" style="padding: 0; border: none; background: none;">
-                        <img src="cases/preview/1obzCbmFpa8_000410.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;" />
-                    </div>
-                    <p>People Giggling</p>
-                </div>
-                <div class="demo-preview-card" onclick="openModal('case-08')">
-                    <div class="preview-media" style="padding: 0; border: none; background: none;">
-                        <img src="cases/preview/1EiNSiO0UvU_000000.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;" />
-                    </div>
-                    <p>Panda Sneezing</p>
-                </div>
-                <div class="demo-preview-card" onclick="openModal('case-09')">
-                    <div class="preview-media" style="padding: 0; border: none; background: none;">
-                        <img src="cases/preview/--U7joUcTCo_000000.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;" />
-                    </div>
-                    <p>People Laughing</p>
-                </div>
-            </div>
-        </section>
+        
 
         <hr>
 
         <section id="simple-demos">
-            <h2>Demos: Single-Event Scenarios in AudioCanvas</h2>
+            <h2>Comparison with Baselines in Single-Event Scenarios on AudioCanvas</h2>
             <p style="text-align: center; margin-bottom: 40px; color: var(--light-text-color); font-style: italic;">Click any card below to load the full high-fidelity comparison and Decomposed Chain-of-Thought analysis for that scene.</p>
 
             <div class="demo-preview-grid">
@@ -783,7 +723,7 @@
         <hr>
 
         <section id="hard-demos">
-            <h2>Demos: Multi-Event Scenarios in AudioCanvas</h2>
+            <h2>Comparison with Baselines in Multi-Event Scenarios on AudioCanvas</h2>
             <p style="text-align: center; margin-bottom: 40px; color: var(--light-text-color); font-style: italic;">Click any card below to load the full high-fidelity comparison and Decomposed Chain-of-Thought analysis for that scene.</p>
 
              <div class="demo-preview-grid">
@@ -845,7 +785,67 @@
         </section>
 
         <hr>
+        <section id="origin-demos">
+            <h2>Comparison with Baselines on VGGSound</h2>
+            <p style="text-align: center; margin-bottom: 40px; color: var(--light-text-color); font-style: italic;">Click any card below to load the full high-fidelity comparison and Decomposed Chain-of-Thought analysis for that scene.</p>
 
+             <div class="demo-preview-grid">
+                <div class="demo-preview-card" onclick="openModal('case-01')">
+                    <div class="preview-media" style="padding: 0; border: none; background: none;">
+                        <img src="https://raw.githubusercontent.com/prismaudio/test.github.io/main/cases/preview/_-W48cCMzXU_0001021.png" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;" />
+                    </div>
+                    <p>Baltimore Oriole Calling</p>
+                </div>
+                <div class="demo-preview-card" onclick="openModal('case-02')">
+                    <div class="preview-media" style="padding: 0; border: none; background: none;">
+                        <img src="cases/preview/3ClbaJYWVO4_000030.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;" />
+                    </div>
+                    <p>Playing Electric Guitar</p>
+                </div>
+                <div class="demo-preview-card" onclick="openModal('case-03')">
+                    <div class="preview-media" style="padding: 0; border: none; background: none;">
+                        <img src="cases/preview/3k8zGf8Btfo_000250.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;" />
+                    </div>
+                    <p>Playing Drum Kit</p>
+                </div>
+                <div class="demo-preview-card" onclick="openModal('case-04')">
+                    <div class="preview-media" style="padding: 0; border: none; background: none;">
+                        <img src="cases/preview/-miI_C3At4Y_000104.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;" />
+                    </div>
+                    <p>Playing Badminton</p>
+                </div>
+                <div class="demo-preview-card" onclick="openModal('case-05')">
+                    <div class="preview-media" style="padding: 0; border: none; background: none;">
+                        <img src="cases/preview/-fTfRh0_RQ4_000030.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;" />
+                    </div>
+                    <p>Car Passing by</p>
+                </div>
+                <div class="demo-preview-card" onclick="openModal('case-06')">
+                    <div class="preview-media" style="padding: 0; border: none; background: none;">
+                        <img src="cases/preview/2Tx5L5RBXxw_000200.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;" />
+                    </div>
+                    <p>Stream Burbling</p>
+                </div>
+                <div class="demo-preview-card" onclick="openModal('case-07')">
+                    <div class="preview-media" style="padding: 0; border: none; background: none;">
+                        <img src="cases/preview/1obzCbmFpa8_000410.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;" />
+                    </div>
+                    <p>People Giggling</p>
+                </div>
+                <div class="demo-preview-card" onclick="openModal('case-08')">
+                    <div class="preview-media" style="padding: 0; border: none; background: none;">
+                        <img src="cases/preview/1EiNSiO0UvU_000000.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;" />
+                    </div>
+                    <p>Panda Sneezing</p>
+                </div>
+                <div class="demo-preview-card" onclick="openModal('case-09')">
+                    <div class="preview-media" style="padding: 0; border: none; background: none;">
+                        <img src="cases/preview/--U7joUcTCo_000000.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;" />
+                    </div>
+                    <p>People Laughing</p>
+                </div>
+            </div>
+        </section>
         <hr>
         <section id="quantitative-results">
             <h2>Quantitative Results</h2>
@@ -1334,7 +1334,9 @@
             "https://github.com/user-attachments/assets/76c658e7-8269-4c79-823e-46e53ef439df",
             "cases/audiocanvas/Rail transport_3/Rail transport_3_479.mp4",
             "cases/audiocanvas/Liquid_1/Liquid_1_416.mp4",
-            "cases/vggsound/1uCzQCdCC1U_000170/1uCzQCdCC1U_000170_416.mp4",
+            "cases/audiocanvas/Accelerating, revving, vroom_2/Accelerating, revving, vroom_2_500.mp4",
+            "cases/audiocanvas/Cat_2/Cat_2_438.mp4",
+            "cases/vggsound/--U7joUcTCo_000000/--U7joUcTCo_000000_208.mp4"
         ];
 
         const carousel = document.getElementById('carousel');
@@ -1355,10 +1357,37 @@
 
             // 点击切换播放/暂停
             video.addEventListener('click', () => {
-                if (video.paused) {
-                    video.play().catch(e => console.warn("Play error:", e));
+                // 1. Calculate the center of the carousel's visible area
+                const carouselCenter = carousel.offsetWidth / 2;
+                
+                // 2. Calculate the center position of the clicked card
+                //    (container.offsetLeft is the card's left edge relative to the carousel)
+                const cardCenter = container.offsetLeft + container.offsetWidth / 2;
+
+                // 3. Calculate the distance from the absolute center
+                const distance = Math.abs((carousel.scrollLeft + carouselCenter) - cardCenter);
+
+                // 4. Check if the card is already in the middle
+                //    (Using a small threshold like 50px to account for minor inaccuracies)
+                if (distance < 50) {
+                    // If it's already centered, just play or pause the video
+                    if (video.paused) {
+                        video.play().catch(e => console.warn("Play error:", e));
+                    } else {
+                        video.pause();
+                    }
                 } else {
-                    video.pause();
+                    // If it's not centered, scroll it to the middle
+                    const targetScrollLeft = cardCenter - carouselCenter;
+                    carousel.scrollTo({
+                        left: targetScrollLeft,
+                        behavior: 'smooth' // This creates the smooth scrolling animation
+                    });
+                    if (video.paused) {
+                        video.play().catch(e => console.warn("Play error:", e));
+                    } else {
+                        video.pause();
+                    }
                 }
             });
 
@@ -1382,7 +1411,7 @@
             sectionWidth = N * (cardWidth + gap);
 
             // 初始位置在中间组
-            carousel.scrollLeft = sectionWidth;
+            carousel.scrollLeft = sectionWidth + gap*11/16;
 
             // 无限循环逻辑
             carousel.addEventListener('scroll', () => {
