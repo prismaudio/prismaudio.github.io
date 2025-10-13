@@ -629,11 +629,32 @@
 
     <div class="carousel-container">
         <strong style="text-align: center; max-width: 1250px; font-family: 'Quicksand', sans-serif; font-size: 19px; display: block; margin: 0 auto 20px; color: #344055;">
-            Tap a video to start or stop.
+            Benchmark Real Video + PrismAudio. Tap a video to start or stop.
         </strong>
         <div id="carousel">
             </div>
     </div>
+
+    <section id="video-collab">
+        <h2>Top-tier Video Generation Models + PrismAudio</h2>
+        <div style="display: flex; justify-content: center; gap: 140px; flex-wrap: wrap; margin-top: 30px;">
+            <div style="text-align: center;">
+            <h3 style="margin-bottom: 10px;">Veo3 + PrismAudio</h3>
+            <video width="480" controls loop style="border-radius: 20px; box-shadow: var(--shadow-light);">
+                <source src="https://github.com/prismaudio/prismaudio.github.io/releases/download/test/veo3+prismaudio.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            </div>
+            <div style="text-align: center;">
+            <h3 style="margin-bottom: 10px;">Sora2 + PrismAudio</h3>
+            <video width="480" controls loop style="border-radius: 20px; box-shadow: var(--shadow-light);">
+                <source src="https://github.com/prismaudio/prismaudio.github.io/releases/download/test/sora2+prismaudio.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            </div>
+        </div>
+        </section>
+
     <div class="container">
         
         <section id="abstract">
@@ -653,32 +674,76 @@
         <hr>
 
         
-        <section id="video-collab">
-        <h2>Collaboration Between Video Generation Models and PrismAudio</h2>
-        <div style="display: flex; justify-content: center; gap: 140px; flex-wrap: wrap; margin-top: 30px;">
-            <div style="text-align: center;">
-            <h3 style="margin-bottom: 10px;">Veo3 + PrismAudio</h3>
-            <video width="480" controls loop style="border-radius: 20px; box-shadow: var(--shadow-light);">
-                <source src="https://github.com/prismaudio/prismaudio.github.io/releases/download/test/veo3+prismaudio.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            </div>
-            <div style="text-align: center;">
-            <h3 style="margin-bottom: 10px;">Sora2 + PrismAudio</h3>
-            <video width="480" controls loop style="border-radius: 20px; box-shadow: var(--shadow-light);">
-                <source src="https://github.com/prismaudio/prismaudio.github.io/releases/download/test/sora2+prismaudio.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            </div>
-        </div>
-        </section>
+        
+        <hr>
 
+        <section id="hard-demos">
+            <h2>Comparison with Baselines in Multi-Event Scenarios on the AudioCanvas Benchmark</h2>
+            <p style="text-align: center; margin-bottom: 40px; color: var(--light-text-color); font-style: italic;">Click any card below to load the full high-fidelity comparison and Decomposed Chain-of-Thought analysis for that scene.</p>
+
+             <div class="demo-preview-grid">
+                <div class="demo-preview-card" onclick="openModal('case-19')">
+                    <div class="preview-media" style="padding: 0; border: none; background: none;">
+                        <img src="cases/preview/Multiple events_63.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;" />
+                    </div>
+                    <p>Chopping, Thudding</p>
+                </div>
+                <div class="demo-preview-card" onclick="openModal('case-20')">
+                    <div class="preview-media" style="padding: 0; border: none; background: none;">
+                        <img src="cases/preview/Multiple events_132.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;" />
+                    </div>
+                    <p>Machining, Tapping</p>
+                </div>
+                <div class="demo-preview-card" onclick="openModal('case-21')">
+                    <div class="preview-media" style="padding: 0; border: none; background: none;">
+                        <img src="cases/preview/Multiple events_139.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;" />
+                    </div>
+                    <p>Ice Cutting, Freezer Shutting</p>
+                </div>
+                <div class="demo-preview-card" onclick="openModal('case-22')">
+                    <div class="preview-media" style="padding: 0; border: none; background: none;">
+                        <img src="cases/preview/Multiple events_114.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;" />
+                    </div>
+                    <p>Unlocking, Pouring</p>
+                </div>
+                <div class="demo-preview-card" onclick="openModal('case-23')">
+                    <div class="preview-media" style="padding: 0; border: none; background: none;">
+                        <img src="cases/preview/Multiple events_391.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;" />
+                    </div>
+                    <p>Smoothing, Flipping</p>
+                </div>
+                <div class="demo-preview-card" onclick="openModal('case-24')">
+                    <div class="preview-media" style="padding: 0; border: none; background: none;">
+                        <img src="cases/preview/Multiple events_156.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;" />
+                    </div>
+                    <p>Plastic Pop Opening</p>
+                </div>
+                <div class="demo-preview-card" onclick="openModal('case-25')">
+                    <div class="preview-media" style="padding: 0; border: none; background: none;">
+                        <img src="cases/preview/Multiple events_98.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;" />
+                    </div>
+                    <p>Unrolling and Tearing Tape, Smoothing</p>
+                </div>
+                <div class="demo-preview-card" onclick="openModal('case-26')">
+                    <div class="preview-media" style="padding: 0; border: none; background: none;">
+                        <img src="cases/preview/Multiple events_89.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;" />
+                    </div>
+                    <p>Piercing, Rubbing</p>
+                </div>
+                <div class="demo-preview-card" onclick="openModal('case-27')">
+                    <div class="preview-media" style="padding: 0; border: none; background: none;">
+                        <img src="cases/preview/Multiple events_304.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;" />
+                    </div>
+                    <p>Exchanging Soap, Pouring</p>
+                </div>
+            </div>
+        </section>
         
 
         <hr>
 
         <section id="simple-demos">
-            <h2>Comparison with Baselines in Single-Event Scenarios on AudioCanvas</h2>
+            <h2>Comparison with Baselines in Single-Event Scenarios on the AudioCanvas Benchmark</h2>
             <p style="text-align: center; margin-bottom: 40px; color: var(--light-text-color); font-style: italic;">Click any card below to load the full high-fidelity comparison and Decomposed Chain-of-Thought analysis for that scene.</p>
 
             <div class="demo-preview-grid">
@@ -739,69 +804,7 @@
             </div>
         </section>
         
-        <hr>
-
-        <section id="hard-demos">
-            <h2>Comparison with Baselines in Multi-Event Scenarios on AudioCanvas</h2>
-            <p style="text-align: center; margin-bottom: 40px; color: var(--light-text-color); font-style: italic;">Click any card below to load the full high-fidelity comparison and Decomposed Chain-of-Thought analysis for that scene.</p>
-
-             <div class="demo-preview-grid">
-                <div class="demo-preview-card" onclick="openModal('case-19')">
-                    <div class="preview-media" style="padding: 0; border: none; background: none;">
-                        <img src="cases/preview/Multiple events_63.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;" />
-                    </div>
-                    <p>Chopping, Thudding</p>
-                </div>
-                <div class="demo-preview-card" onclick="openModal('case-20')">
-                    <div class="preview-media" style="padding: 0; border: none; background: none;">
-                        <img src="cases/preview/Multiple events_132.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;" />
-                    </div>
-                    <p>Machining, Tapping</p>
-                </div>
-                <div class="demo-preview-card" onclick="openModal('case-21')">
-                    <div class="preview-media" style="padding: 0; border: none; background: none;">
-                        <img src="cases/preview/Multiple events_139.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;" />
-                    </div>
-                    <p>Ice Cutting, Freezer Shutting</p>
-                </div>
-                <div class="demo-preview-card" onclick="openModal('case-22')">
-                    <div class="preview-media" style="padding: 0; border: none; background: none;">
-                        <img src="cases/preview/Multiple events_114.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;" />
-                    </div>
-                    <p>Unlocking, Pouring</p>
-                </div>
-                <div class="demo-preview-card" onclick="openModal('case-23')">
-                    <div class="preview-media" style="padding: 0; border: none; background: none;">
-                        <img src="cases/preview/Multiple events_391.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;" />
-                    </div>
-                    <p>Smoothing, Flipping</p>
-                </div>
-                <div class="demo-preview-card" onclick="openModal('case-24')">
-                    <div class="preview-media" style="padding: 0; border: none; background: none;">
-                        <img src="cases/preview/Multiple events_156.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;" />
-                    </div>
-                    <p>Plastic Pop Opening</p>
-                </div>
-                <div class="demo-preview-card" onclick="openModal('case-25')">
-                    <div class="preview-media" style="padding: 0; border: none; background: none;">
-                        <img src="cases/preview/Multiple events_98.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;" />
-                    </div>
-                    <p>Unrolling and Tearing Tape, Smoothing</p>
-                </div>
-                <div class="demo-preview-card" onclick="openModal('case-26')">
-                    <div class="preview-media" style="padding: 0; border: none; background: none;">
-                        <img src="cases/preview/Multiple events_89.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;" />
-                    </div>
-                    <p>Piercing, Rubbing</p>
-                </div>
-                <div class="demo-preview-card" onclick="openModal('case-27')">
-                    <div class="preview-media" style="padding: 0; border: none; background: none;">
-                        <img src="cases/preview/Multiple events_304.jpg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;" />
-                    </div>
-                    <p>Exchanging Soap, Pouring</p>
-                </div>
-            </div>
-        </section>
+        
 
         <hr>
         <section id="origin-demos">
@@ -930,7 +933,7 @@
                 <p id="modal-description">Description placeholder.</p>
             </div>
 
-            <h3>Comparisons</h3>
+            <h3>Comparisons with Baselines</h3>
             <div class="demo-preview-grid" style="grid-template-columns: 1fr 1fr 1fr; gap: 30px;">
                 <div id="media-1" class="full-media-placeholder"></div>
                 <div id="media-2" class="full-media-placeholder"></div>
