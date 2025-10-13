@@ -51,6 +51,10 @@
             text-align: center;
         }
 
+        #abstract h2 {
+            margin-top: 0;
+        }
+        
         h2 {
             font-family: 'Montserrat', sans-serif;
             font-size: 2.5em;
@@ -629,11 +633,11 @@
 
     <div class="carousel-container">
         <strong style="text-align: center; max-width: 1250px; font-family: 'Quicksand', sans-serif; font-size: 19px; display: block; margin: 0 auto 20px; color: #344055;">
-            Benchmark Real Video + PrismAudio. Tap a video to start or stop — for the best experience, please wear headphones.
+            Benchmark Real Video + PrismAudio. Tap a video to experience our AI-generated stereo audios. 🎧 Headphones highly recommended.
         </strong>
         <div id="carousel">
             </div>
-    </div>
+    </div> 
 
     <hr>
 
@@ -641,16 +645,16 @@
         <h2>Top-tier Video Generation Models + PrismAudio</h2>
         <div style="display: flex; justify-content: center; gap: 140px; flex-wrap: wrap; margin-top: 30px;">
             <div style="text-align: center;">
-            <h3 style="margin-bottom: 10px;">Veo3 + PrismAudio</h3>
+            <h3 style="margin-bottom: 10px;">Sora2 + PrismAudio</h3>
             <video width="480" controls loop style="border-radius: 20px; box-shadow: var(--shadow-light);">
-                <source src="https://github.com/prismaudio/prismaudio.github.io/releases/download/test/veo3+prismaudio.mp4" type="video/mp4">
+                <source src="https://github.com/prismaudio/prismaudio.github.io/releases/download/test/sora2+prismaudio.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
             </div>
             <div style="text-align: center;">
-            <h3 style="margin-bottom: 10px;">Sora2 + PrismAudio</h3>
+            <h3 style="margin-bottom: 10px;">Veo3 + PrismAudio</h3>
             <video width="480" controls loop style="border-radius: 20px; box-shadow: var(--shadow-light);">
-                <source src="https://github.com/prismaudio/prismaudio.github.io/releases/download/test/sora2+prismaudio.mp4" type="video/mp4">
+                <source src="https://github.com/prismaudio/prismaudio.github.io/releases/download/test/veo3+prismaudio.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
             </div>
@@ -673,6 +677,9 @@
         <section id="advantage">
             <h2>The PRISMAUDIO Framework</h2>
             <img src="fig/fig2_model.png" alt="PrismAudio illustration" width="100%" style="max-width:1200px; display:block; margin:40px auto;" />
+            <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 5px;">
+                Overview of <strong>PrismAudio</strong>. Left panel: the progress of CoT training data construction using Gemini 2.5 Pro and then fine-tuning VideoLLaMA2 for decomposed CoT generation. Right panel: the Fast-GRPO multi-dimensional CoT-RL framework for post-training the Audio Foundation Model.
+            </p>
         </section>
 
         
